@@ -1,15 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import SearchBar from './components/search_bar';
-
-const API_KEY = 'AIzaSyCyFh_8n1hKjU2tFVyVVArpK9OLgtTPZ4c';
+import Header from './components/header';
 
 const App = () => {
     return (
-    <div>
-        <SearchBar/>
-    </div>
+    <div><Header/></div>
     );
 }
 
