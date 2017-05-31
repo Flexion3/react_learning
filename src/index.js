@@ -5,8 +5,8 @@ import Header from './components/header';
 
 const App = () => {
     return (
-    <div><Header/></div>
+    <Header/>
     );
 }
 
-ReactDOM.render(<App />, document.querySelector('.container'));
+ReactDOM.render(<App />, document.body);
